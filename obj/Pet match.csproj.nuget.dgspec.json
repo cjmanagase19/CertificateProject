@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MANA20236155\\source\\repos\\Pet match\\Pet match.csproj": {}
+    "C:\\Users\\MANA20236155\\source\\repos\\Pet match\\CertificateProject\\Pet match.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MANA20236155\\source\\repos\\Pet match\\Pet match.csproj": {
+    "C:\\Users\\MANA20236155\\source\\repos\\Pet match\\CertificateProject\\Pet match.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MANA20236155\\source\\repos\\Pet match\\Pet match.csproj",
+        "projectUniqueName": "C:\\Users\\MANA20236155\\source\\repos\\Pet match\\CertificateProject\\Pet match.csproj",
         "projectName": "Pet match",
-        "projectPath": "C:\\Users\\MANA20236155\\source\\repos\\Pet match\\Pet match.csproj",
+        "projectPath": "C:\\Users\\MANA20236155\\source\\repos\\Pet match\\CertificateProject\\Pet match.csproj",
         "packagesPath": "C:\\Users\\MANA20236155\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MANA20236155\\source\\repos\\Pet match\\obj\\",
+        "outputPath": "C:\\Users\\MANA20236155\\source\\repos\\Pet match\\CertificateProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -55,6 +55,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
             }
           },
           "imports": [

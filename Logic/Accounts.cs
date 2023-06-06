@@ -5,50 +5,61 @@ using System;
 
 namespace Pet_match.Logic
 {
+
     public class Accounts
     {
-        public readonly DbConnection Connection;
-        public readonly DbConnector Connector;
-        public Accounts(DbConnection connection,DbConnector connector) { 
-            this.Connection = connection;
-            this.Connector = connector;
-            connector.Kalinderia();
+        DbConnection Connection;
+        public Accounts()
+        {
+            DbConnector connector = new DbConnector();
+            DbConnection Dbconnection = connector.Kalinderia();
+            this.Connection = Dbconnection;
+
         }
         public User RegisterUser(User user)
         {
-             string guid = generateUid();
-            return user;
+            string query = "INSERT INTO (id,firstName,lastName,age) values (@id,@firstName,@lastName,@age)";
+            using(var conn = this.Connection.GetConnection())
+            {
+                conn.Open();
+                var command = conn.CreateCommand();
+                command.CommandText = query;
+                command.Parameters.AddWithValue("@id", user.guid);
+                command.Parameters.AddWithValue("@firstName", user.firstName);
+                command.Parameters.AddWithValue("@lastName", user.lastName);
+                command.Parameters.AddWithValue("@age", user.age);
+                int index = command.ExecuteNonQuery();
+                if (index == 0)
+                {
+                    throw new Exception("Something error occur, please try again.");
+                }
+                return user;
+            }
+        }
+        public Login RegisterLogin(Login login)
+        {
+            
+            string query = "INSERT INTO login(id,username,password) VALUES (@id,@userName,@password)";
+            using(var conn = this.Connection.GetConnection())
+            {
+                conn.Open();
+                var command = conn.CreateCommand();
+                command.CommandText = query;
+                command.Parameters.AddWithValue("@id", generateUid());
+                command.Parameters.AddWithValue("@userName", login.userName);
+                command.Parameters.AddWithValue("@password", login.password);
+                int index = command.ExecuteNonQuery();
+                if (index == 0)
+                {
+                    throw new Exception("Something error occur, please try again.");
+                }
+                return login;
+            }
+            
         }
         public string generateUid()
         {
-            string stringUid = "";
-            bool isThere = false;
-            while(isThere!=true)
-            {
-                Guid guid = Guid.NewGuid();
-                var query = "select id from login where id = @id ";
-                using(var conn = this.Connection.GetConnection())
-                {
-                    conn.Open();
-                    var command = conn.CreateCommand();
-                    command.CommandText = query;
-                    command.Parameters.AddWithValue("@id", guid);
-                    
-                    int index = command.ExecuteNonQuery();
-                    if(index == 0)
-                    {
-                        isThere = false;
-                    }
-                    else
-                    {
-                        isThere = true;
-                        stringUid = guid.ToString();
-                    }
-                }
-
-            }
-            return stringUid;
-
+            return Guid.NewGuid().ToString();
         }
     }
 }

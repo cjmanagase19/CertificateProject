@@ -1,6 +1,7 @@
 ﻿using Kalinderya_Online_Api_Practice.Helper;
 using Microsoft.AspNetCore.Mvc;
 using Pet_match.Logic;
+using Pet_match.Model;
 
 namespace Pet_match.Controllers
 {
@@ -8,21 +9,22 @@ namespace Pet_match.Controllers
     [ApiController]
     public class Account : Controller     
     {
-        public readonly DbConnection Connection;
-        public readonly DbConnector Connector;
-        public Account(DbConnection dbConnection, DbConnector dbConnector)
-        {
-            this.Connection = dbConnection;
-            this.Connector = dbConnector;
-        }
-        [HttpGet]
-        public JsonResult Get()
+        public Account()
         {
 
-            Accounts acc = new Accounts(Connection, Connector);
-            var id = acc.generateUid;
+        }
+        [HttpPost]
+        public JsonResult Register(Login login)
+        {
+
+            Accounts acc = new Accounts();
+            Login loginOutput = acc.RegisterLogin(login); ;
             //apply
-            return new JsonResult(acc);
+            return new JsonResult(new { 
+                id=loginOutput.Guid,
+                userName = loginOutput.userName,
+                password = loginOutput.password
+            });
         }
     }
     

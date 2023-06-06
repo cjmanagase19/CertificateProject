@@ -7,7 +7,7 @@ namespace Kalinderya_Online_Api_Practice.Helper
         public DbConnection connection;
         public DbConnection Kalinderia()
         {
-            IniFile ini = new IniFile("C:\\Config\\Databases.ini");
+            IniFile ini = new IniFile("C:\\Users\\MANA20236155\\source\\repos\\Pet match\\CertificateProject\\Databases.ini");
             String database = ini.ReadValue("PetMatch", "database");
             String password = ini.ReadValue("PetMatch", "pwd");
             String user = ini.ReadValue("PetMatch", "uid");

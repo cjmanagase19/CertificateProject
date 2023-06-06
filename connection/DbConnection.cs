@@ -7,6 +7,10 @@ namespace Kalinderya_Online_Api_Practice.Helper
         //call the mysqlconnection
         private MySqlConnection connections;
         string connection;
+        public DbConnection()
+        {
+
+        }
         public DbConnection(string database, string user, string password, string server, bool allowUserVariables, bool useAffectedRows)
         {
             initiated(database, user, password, server, allowUserVariables, useAffectedRows);

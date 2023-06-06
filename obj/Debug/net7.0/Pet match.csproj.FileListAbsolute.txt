@@ -32,3 +32,42 @@ C:\Users\MANA20236155\source\repos\Pet match\obj\Debug\net7.0\refint\Pet match.d
 C:\Users\MANA20236155\source\repos\Pet match\obj\Debug\net7.0\Pet match.pdb
 C:\Users\MANA20236155\source\repos\Pet match\obj\Debug\net7.0\Pet match.genruntimeconfig.cache
 C:\Users\MANA20236155\source\repos\Pet match\obj\Debug\net7.0\ref\Pet match.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\appsettings.json
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\Pet match.exe
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\Pet match.deps.json
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\Pet match.runtimeconfig.json
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\Pet match.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\Pet match.pdb
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\Pet match.csproj.AssemblyReference.cache
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\Pet match.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\Pet match.AssemblyInfoInputs.cache
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\Pet match.AssemblyInfo.cs
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\Pet match.csproj.CoreCompileInputs.cache
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\Pet match.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\Pet match.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\staticwebassets\msbuild.Pet match.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\staticwebassets\msbuild.build.Pet match.props
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Pet match.props
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Pet match.props
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\scopedcss\bundle\Pet match.styles.css
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\Pet match.csproj.CopyComplete
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\Pet match.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\refint\Pet match.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\Pet match.pdb
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\Pet match.genruntimeconfig.cache
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\obj\Debug\net7.0\ref\Pet match.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\log4net.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\MANA20236155\source\repos\Pet match\CertificateProject\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
