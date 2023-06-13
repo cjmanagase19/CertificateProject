@@ -9,21 +9,43 @@ namespace Pet_match.Controllers
     [ApiController]
     public class Account : Controller     
     {
+        Account acc;
         public Account()
         {
+            this.acc = new Account();
 
+        }
+        [HttpPost]
+        public JsonResult RegisterPet(Pet pet)
+        {
+            acc.RegisterPet(pet);
+            return new JsonResult(new
+            {
+                pet_id = pet.petUid,
+                pet_name = pet.petName,
+            });
+        }
+        [HttpPost]
+        public JsonResult RegisterUser(User user)
+        {
+            acc.RegisterUser(user);
+            return new JsonResult(new
+            {
+                resCode = 200,
+                first_name = user.firstName,
+                last_name = user.lastName,
+                age = user.age,
+                address = user.address,
+            });
         }
         [HttpPost]
         public JsonResult Register(Login login)
         {
-
-            Accounts acc = new Accounts();
-            Login loginOutput = acc.RegisterLogin(login); ;
+            this.acc.Register(login); ;
             //apply
             return new JsonResult(new { 
-                id=loginOutput.Guid,
-                userName = loginOutput.userName,
-                password = loginOutput.password
+                userName = login.userName,
+                password = login.password
             });
         }
     }
